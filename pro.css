@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*background-color: rgb(189, 168, 137);*/
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav {
+    list-style: none;
+    display: flex;
+   height: 29px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: rgb(22, 235, 235);
+   
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-left: 40PX;
+    
+  
+}
+nav ul li {
+    box-sizing: border-box;
+    margin-left: 30px;
+    padding: 6px;
+    padding: 6px 20px;
+  border-radius: 3px;
+ 
+  margin-top: 30px;
+
+}
+nav ul li:hover{
+    color: rgb(31, 186, 218);
+    cursor: pointer;
+    font-weight: bolder;
+    
+}
+.container{
+
+   /* border-style: dashed;*/
+    min-height: 600px;
+    width: 1200px;
+    margin-left: 80px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 40px  rgb(197, 187, 187);
+ 
+}
+.container .name{
+    border-style: none;
+    width: 600px;
+    min-height: 300px;
+    /*margin-left: 46px;
+    box-shadow: 0px 0px 40px  rgb(197, 187, 187);*/
+ 
+}
+.container .name h1{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 46px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(42, 15, 59);
+}
+.container .name p{
+    margin-left: 46px;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+ span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(6, 198, 223);
+
+}
+.container .name a{
+    margin-left: 46px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    border: 1px;
+    padding: 4px 10px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px  rgb(92, 41, 41);
+    color: black;
+}
+.container .name a:hover{
+    background-color: rgb(45, 194, 214);
+    color: blanchedalmond;
+    font-style: italic;
+}
+.container .aboutme{
+    border-style: none;
+    width: 589px;
+    min-height: 500px;
+    margin-left: 50%;
+    margin-top: -306px;
+    box-shadow: 0px 0px 6px  ;
+
+}
+.container .aboutme p{
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.container .aboutme h1,h2{
+    margin-left: 30px;
+}
+.container .pictures{
+    /*border: 2px;
+    border-style: double;*/
+    width: 30%;
+    min-height: 420px;
+    margin-top: -280px;
+    margin-left: 160px;
+background-image: url(ffrt.jpg);
+background-repeat:;
+opacity: 0.8;
+border-radius: 50%;
+
+box-shadow: 0px 0px 40px  ;
+}
+.container .slide{
+
+min-height: 200px;
+margin-top: 10px;
+display: flex;
+justify-content: space-between;
+}
+.container .slide .pixx{
+    min-height: 200px;
+    width:400px;
+    
+    box-shadow: 0px 0px 40px  ;
+
+    background-image: url(gt.jpg)
+}
